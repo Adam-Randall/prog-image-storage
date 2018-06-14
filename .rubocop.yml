@@ -1,0 +1,65 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+
+Style/MethodDefParentheses:
+  Enabled: false
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: true
+  Exclude:
+    - config/application.rb
+
+Metrics/AbcSize:
+  Max: 25
+
+Metrics/LineLength:
+  Max: 120
+
+Metrics/ModuleLength:
+  Max: 140
+
+Metrics/ClassLength:
+  Max: 140
+
+Metrics/MethodLength:
+  Max: 15
+
+Metrics/BlockLength:
+  Max: 140
+  ExcludedMethods: ['describe', 'context']
+
+Style/Documentation:
+  Enabled: false
+
+Style/GuardClause:
+  Enabled: false
+
+Lint/AmbiguousOperator:
+  Enabled: false
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: false
+
+Layout/MultilineOperationIndentation:
+  EnforcedStyle: indented
+
+Layout/AlignParameters:
+  EnforcedStyle: with_fixed_indentation
+
+Layout/IndentationConsistency:
+  EnforcedStyle: rails
+
+Style/RaiseArgs:
+  Enabled: false
+
+Style/Semicolon:
+  Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/ExpandPathArguments:
+  Enabled: true
+  Exclude:
+    - config.ru

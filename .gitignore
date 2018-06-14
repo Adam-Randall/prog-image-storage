@@ -1,0 +1,6 @@
+app/api/.DS_Store
+app/.DS_Store
+spec/.DS_Store
+config/application.yml
+tmp/*
+CHALLENGE.md

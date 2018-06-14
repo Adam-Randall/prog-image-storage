@@ -1,0 +1,9 @@
+en:
+  prog_image_storage:
+    cloud_provider_does_not_exist: Cloud Provider requested is currently not supported
+    image_exists: "Image already exists under file name: %{filename}"
+    file_access_failure: "Unable to change public access for file %{filename}"
+    file_type_must_be_image: File type must be an image
+    unknown_image_file: "Unrecognizable image name: %{image_name}"
+    unknown_extension: "Unrecognizable extension: %{extension}"
+    upload_file_failure: "Something went wrong, unable to upload file: %{filename}"
