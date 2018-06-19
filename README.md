@@ -1,6 +1,6 @@
 ## Prog Image Storage Microservice
 
-This is a Ruby Grape Rest API application. It allows consumers to upload images to the cloud and convert the images based on request_url type. See [here](https://github.com/Adam-Randall/prog-image-storage/blob/master/CHALLENGE.md)for related questions
+This is a Ruby Grape Rest API application. It allows consumers to upload images to the cloud and convert the images based on request_url type. See [here](https://github.com/Adam-Randall/prog-image-storage/blob/master/QUESTIONS.md) for related questions
 
 ### Run Locally
 
@@ -13,7 +13,7 @@ This is a Ruby Grape Rest API application. It allows consumers to upload images 
 * `aws_access_key_id: XXXXXXXXXXXX` - AWS Access Key id
 * `aws_secret_access_key: XXXXXXXXXXXX` - AWS Secret Access Key id
 * `bucket_name: prog-images-test` - Unique Bucket Name to store files
-* `provider: AWS` - Cloud provider - can be extend to support more
+* `provider: AWS` - Cloud provider - can be extended to support other providers
 
 5. Start the ruby server `bin/server`
 
